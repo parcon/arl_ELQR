@@ -85,6 +85,8 @@ CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/tools/rosservi
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/utilities/roswtf/manifest.xml
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/utilities/message_filters/manifest.xml
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/geometry/tf/manifest.xml
+CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/manifest.xml
+CMakeFiles/eLQR.dir/src/main.o: /home/parker/ros_workspace/brown_drivers/irobot_create_2_1/manifest.xml
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
@@ -95,6 +97,10 @@ CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/srv_gen/generated
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/geometry/tf/srv_gen/generated
+CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/msg_gen/generated
+CMakeFiles/eLQR.dir/src/main.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/srv_gen/generated
+CMakeFiles/eLQR.dir/src/main.o: /home/parker/ros_workspace/brown_drivers/irobot_create_2_1/msg_gen/generated
+CMakeFiles/eLQR.dir/src/main.o: /home/parker/ros_workspace/brown_drivers/irobot_create_2_1/srv_gen/generated
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/parker/ros_workspace/arl_ELQR/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/eLQR.dir/src/main.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/eLQR.dir/src/main.o -c /home/parker/ros_workspace/arl_ELQR/src/main.cpp

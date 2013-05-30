@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/home/parker/ros_workspace/arl_ELQR/src/Tank.h
+string
+-
+vector
+-
+map
+-
+ostream
+-
+ros/serialization.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/serialization.h
+ros/builtin_message_traits.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/builtin_message_traits.h
+ros/message_operations.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/message_operations.h
+ros/time.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/time.h
+ros/macros.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/macros.h
+ros/assert.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/assert.h
+ros/service_traits.h
+/home/parker/ros_workspace/arl_ELQR/src/ros/service_traits.h
+
 /home/parker/ros_workspace/arl_ELQR/src/main.cpp
 ros/ros.h
 -
@@ -23,6 +47,8 @@ Eigen/Dense
 -
 sensor_msgs/Joy.h
 -
+Tank.h
+/home/parker/ros_workspace/arl_ELQR/src/Tank.h
 
 /opt/ros/electric/stacks/bullet/include/LinearMath/btMatrix3x3.h
 btVector3.h

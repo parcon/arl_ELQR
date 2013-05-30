@@ -1,0 +1,4 @@
+bluetooth-agent 0000 &
+sudo rfcomm bind rfcomm0 00:0A:3A:2E:C8:36
+sudo chmod 777 /dev/rfcomm0
+rosparam set /brown/irobot_create_2_1/port /dev/rfcomm0

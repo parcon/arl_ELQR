@@ -14,6 +14,8 @@
   <depend package="sensor_msgs"/>
   <depend package="tf"/>
   <depend package="geometry_msgs"/>
+  <depend package="irobot_create_2_1"/>
+
 </package>
 
 

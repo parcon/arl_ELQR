@@ -1,0 +1,8 @@
+<launch>
+<node name="iRobot_Drivers" pkg="irobot_create_2_1" type="driver" respawn="true"> 
+</node>
+
+<node name="arl_ELQR" pkg="arl_ELQR" type="eLQR" respawn="true"> 
+</node>
+
+</launch>
